@@ -1,0 +1,74 @@
+.div-ultimos-animes {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 13px 30px;
+    padding-bottom: 40px;
+}
+
+.anime-div {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.anime-div:hover {
+    cursor: pointer;
+}
+
+.div-i {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.div-i::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
+    border-radius: 4px;
+}
+
+.div-i::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
+    border-radius: 4px;
+}
+
+.anime-imagem {
+    height: 280px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.div-info-episodios {
+    font-size: .8rem;
+    position: absolute;
+    top: 0;
+    padding: 13px 10px 10px 10px;
+}
+
+.div-info-titulo-anime {
+    font-size: .9rem;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 10px 13px 10px;
+    margin-bottom: 0px;
+}
+
+.div-info-titulo-anime h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

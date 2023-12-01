@@ -1,0 +1,72 @@
+.section {
+    background-image: linear-gradient(to bottom, #313131, #000000);
+    padding: 25px 100px 25px 100px;
+}
+
+.link-calendario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #0b36cd;
+    font-family: Roboto, Arial;
+    border-radius: 6px;
+    position: relative;
+    color: #fff;
+    padding: 13px;
+}
+
+.link-calendario h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.setaBaixo {
+    height: 15px;
+    position: absolute;
+    right: 15px;
+}
+
+.div-ver-mais {
+    display: flex;
+    color: white;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-ultimos-lancamentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-lancamentos {
+    height: 17px;
+    margin-right: 6px;
+    padding-bottom: 1px;
+}
+
+.div-ultimos-lancamentos h2 {
+    font-family: Roboto, Arial;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.link-ver-mais {
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    font-size: 1rem;
+    height: 35px;
+    background: #193186;
+    padding-right: 14px;
+    border: #193186;
+    border-radius: 0.25rem;
+}
+
+.icone-ver-mais {
+    height: 15px;
+    margin: 0px 15px 0px 10px;
+}

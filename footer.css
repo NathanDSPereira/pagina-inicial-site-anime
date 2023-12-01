@@ -1,0 +1,66 @@
+.rodape {
+    position: relative;
+}
+
+.hover::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: 1;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.container-imagem {
+    position: relative;
+    height: 300px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container-imagem::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0,0, 0, 0));
+    z-index: 1;
+}
+
+.footer-imagem {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+}
+
+.informacoes-footer {
+    position: absolute;
+    top: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.informacoes-footer p {
+    font-family: 'Roboto', Arial;
+    color: #fff;
+    z-index: 2;
+}
+
+.data {
+    padding-top: 4px;
+}

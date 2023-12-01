@@ -1,0 +1,118 @@
+.div-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    gap: 13px 30px;
+    margin-bottom: 60px;
+}
+
+.anime-caixa {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, Arial;
+    cursor: pointer;
+}
+
+.anime-caixa::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
+    transition: all .6s;
+    z-index: 1;
+}
+
+.tumbnail-anime {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius: 3px;
+   object-fit: cover;
+}
+
+.anime-info {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    z-index: 100;
+}
+
+.anime-info-time {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.anime-info-time-per-ep {
+    display: flex;
+    align-items: center;
+    margin-right: 65px;
+}
+
+.anime-info-time-unknown {
+    display: flex;
+    align-items: center;
+    margin-right: 86px;
+}
+
+.relogio-tempo {
+    height: 12px;
+    margin-right: 3px;
+}
+
+.info-time {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.anime-info-legenda, .anime-info-qualidade {
+    border-radius: 2px;
+    padding: 2px 8px;
+}
+
+.anime-info-qualidade {
+    background-color: black;
+}
+
+.anime-info-legenda {
+    background-color: #4a5568;
+    margin-right: 5px;
+}
+
+.info-legenda, .info-qualidade {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 200;
+}
+
+.div {
+    position: absolute;
+    bottom: 0px;
+    padding: 8px 8px 10px 8px;
+    width: 90%;
+    z-index: 100;
+}
+
+.anime-info-titulo h3 {
+    font-size: .9rem;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.anime-info-titulo h4 {
+    font-size: .9rem;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,80 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 50px;
+    align-items: center;
+    height: 160px;
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #ffffff, #313131); 
+}
+
+a {
+    cursor: pointer;
+}
+
+.div-left {
+    margin-right: 40px;
+}
+
+.logo-anime {
+    height: 300px;
+}
+
+.div-middle {
+    padding-top: 10px;
+}
+
+.lista-navegacao {
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+    list-style-type: none;
+}
+
+.item-lista {
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.item-lista:hover {
+    color: #000000;
+    transition: color .6s;
+}
+
+.div-item-lista {
+    display: flex;
+    align-items: center;
+}
+
+.div-right {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.div-icon-right {
+    margin-left: 25px;
+}
+
+.logo-discord {
+    height: 30px;
+}
+
+.icone-lupa {
+    height: 25px;
+
+}
+
+.icone-dado {
+    height: 35px;
+
+}
+
+.icone-user {
+    height: 40px;
+}

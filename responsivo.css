@@ -1,0 +1,113 @@
+@media (max-width: 1350px) {
+    .anime-info {
+        width: 95%;
+    }
+
+    .div-ultimos-animes {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1220px) {
+    .cabecalho {
+        padding: 0px 50px 0px 0px;
+
+        justify-content: space-around;
+    }
+
+    .logo-anime {
+        height: 240px;
+    }
+
+    .div-right {
+        flex: 0;
+    }
+
+    .div-caixa-imagem:hover { 
+        width: 600%;
+        cursor: pointer;
+    }
+
+    .div-videos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .anime-info {
+        width: 90%;
+
+        justify-content: space-around;
+    }
+
+    .div-ultimos-animes {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .cabecalho {
+        font-size: 20px;
+
+        padding: 0px;
+    }
+
+    .div-left {
+        display: none;
+    }
+
+    .div-videos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .anime-info {
+        width: 95%;
+    }
+
+    .anime-info-time {
+        flex: 0.9;
+    }
+
+    .div-ultimos-animes {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho  {
+        flex-direction: column;
+    }
+
+    .item-lista {
+        color: #000;
+    }
+
+    .div-caixa-imagem:nth-child(6), .div-caixa-imagem:nth-child(2) {
+        display: none;
+    }
+
+    .div-videos {
+        grid-template-columns: 1fr;
+    }
+
+    .div-ultimos-animes {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .lista-navegacao {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        line-height: 40px;
+    }
+
+    .div-caixa-imagem:nth-child(1) {
+        display: none;
+    }
+
+    .section {
+        padding: 25px 10px 25px 10px;
+    }
+}
